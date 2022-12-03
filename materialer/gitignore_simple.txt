@@ -1,0 +1,8 @@
+### files ###
+test.html
+
+### folders ###
+foo/
+
+### All files ending on "class" ###
+*.class
