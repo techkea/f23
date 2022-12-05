@@ -2,14 +2,14 @@
 <script src="script.js"></script>
 
 # Headline
-<small>FORBEREDELSE</small>
+## Forberedelse
 
 
-<small>DAGENS INDHOLD</small>
-## Læringsmål
+## Dagens indhold
+### Læringsmål
 
-<small>HJEMMEARBEJDE</small>
+## Hjemmearbejde
 
-<small>MATERIALER</small>
+## Materialer
 
-## Øvelser
+### Øvelser
