@@ -5,6 +5,26 @@
 <br><br>
 </div>
 
+* [Introduktion til Teknologifaget](introduktion.md) 
+* [Linux OS I](linux.md) 
+* [Linux OS II]() 
+* [Versionsstyrring (git)]() 
+* [Git branches, merge og merge conflicts]() 
+* [Projektsamarbejde med git og github]() 
+* [Databaser]() 
+* [Sikkerhed, SQL Injections og Code Review](security.md) 
+* [Deployment med Github, Render og PlanetScale]() 
+* [Deployment med Github, Render og PlanetScale]() 
+* [Client / Server Arkitektur]()  
+* [Miniprojekt]() 
+* [Miniprojekt]() 
+* [Eksamensprojekt]() 
+* [Eksamensprojekt]() 
+* [Eksamensprojekt]() 
+* [Eksamensprojekt]() 
+
+
+<!-- 
 | Dat21v2 | Dat21v1 | Emne | 
 |:---|:---|:--- |
 ||| [Introduktion til Teknologifaget, OS og CLI ](intro.md)|
@@ -24,4 +44,4 @@
 ||| [Eksamensprojekt](13-16.md)|
 ||| [Eksamensprojekt](13-16.md)|
 
-
+-->
