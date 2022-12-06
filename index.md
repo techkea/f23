@@ -6,7 +6,7 @@
 </div>
 
 | Dat21v2 | Dat21v1 | Emne | 
-|:---|:---| --- |
+|:---|:---|:--- |
 ||| [Introduktion til Teknologifaget, OS og CLI ](intro.md)|
 ||| [Databaser](2.md)|
 ||| [Versionsstyrring (git)](3.md)|
