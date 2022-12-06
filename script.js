@@ -7,7 +7,7 @@ $().ready(function() {
 	$(".site-footer").append("<div style='text-align:center'><small>Licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY-NC-SA.</a> <br> Claus Bove (clbo@kea.dk) forår 2023 <br> <div>")
 	$(".site-footer-owner").hide()
         $(".site-footer-credits").hide()	
-	$(".main-content").attr('style', 'max-width:60rem; font-size:1.1rem');
+	$(".main-content").attr('style', 'max-width:60rem; font-size:1.0rem');
 
 });
 
