@@ -34,7 +34,7 @@ Se og følg tutorials i de tre videoer:
 * [the Linux File System explained in 1,233 seconds // Linux for Hackers // EP 2 (20:32)](https://www.youtube.com/watch?v=A3G-3hp88mo&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&index=2)
 * [HELP!! (for when you suck at Linux) // Linux for Hackers // EP3 (13:13)](https://www.youtube.com/watch?v=Y17KTiJLcyQ&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&index=3)
 * [Installation af Linux](materialer/installationer.md).
-* [Commandline CheetSheet]()
+* [Commandline CheetSheet](materialer/unix_commands.md)
 
 
 
