@@ -2,9 +2,9 @@
 <script src="script.js"></script>
 
 # Linux OS
-## Forberedelse
+## Forberedelse (ca. 1 time)
 
-* Installer linux på din egen computer ved at følge [denne tutorial](materialer/installationer.md).
+* Installer linux på din egen computer ved at følge [denne tutorial](materialer/installationer.md). (15 minutter)
 
 Se og følg tutorials i de tre videoer:
 * [Linux for Hackers // EP 1 (11:32)](https://www.youtube.com/watch?v=VbEx7B_PTOE&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL)
@@ -22,10 +22,9 @@ Se og følg tutorials i de tre videoer:
 * Installere Linux gennem Docker på din computer.
 * Bruge Linux OS gennem dens terminal.
 * Få et praktisk overblik over de hyppigst brugte shell kommandoer.
-* Forstå Linux´s file og foldersystem. 
+* Forstå Linux´s fil  og mappestruktur. 
 * Kunne installere applikationer i dit linux system.
 * kunne eksevere applikationer (java programmer) på din linux computer.  
-
 
 ## Hjemmearbejde
 
