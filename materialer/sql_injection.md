@@ -33,8 +33,11 @@ Kunne SQL sætningen komme til at se sådan ud:
 	SELECT * FROM users WHERE user='alice' AND pass='12345'
 ````
 
+## OR payload
 I SQL (og de fleste andre sprog) vil **AND** returnere _True_ hvis begge betingelser er sande.     
-**OR** vil returnere _True_ hvis bare an af betingelserne er sande.     
+**OR** vil returnere _True_ hvis bare an af betingelserne er sande. 
+
+**AND** har envidere **forrang** (precedence) over **OR**    
 
 Det kan vi benyttte os af ved at indtaste følgende i login formen. 
 
@@ -45,9 +48,12 @@ Hvilket giver følgenede SQL sætning:
 ````
 	SELECT * FROM users WHERE user='admin' OR '1'='1' AND pass='test'
 ````
-Det er her vigtigt angriberen kan udforme sytaktisk korrekt SQL sætninger.    
+Sætningen bliver evalueret ved først at checke om user='admin' og pass='test'. Dette er ikke tilfælde, så det er False.    
+Herefter checkes om user='admin' eller om 1=1. Dette er altid tilfældet da kun en af betingelserne behøver at være True (og 1 er altid lig 1).    
 
-Læg også mærke til at det ikke er nødvendigt at kende til password, da det aldrig bliver evalueret pga. AND/OR. Det er også ligegyldigt om man skriver admin, eller noget andet (xxx etc.).     
+Læg også mærke til at det her er ligegyldigt om vi skriver det rigtige password og der er ligegyldigt om vi skriver det rigtigt brugernavn.
+
+## Comment payload
 
 Angriberen kan opgå gøre brug af ```--``` til at udkommentere kode. 
 
@@ -60,6 +66,7 @@ Hvilket giver følgende SQL sætning.
 ````
 pass bliver ikke eksikveret da det er udkommenteret.     
 
+## OR payload (på en ny måde)
 En anden mulighed kunne være at skrive dette: 
 ![](../img/sqlinject/inject_5.png)
 
@@ -68,7 +75,17 @@ Hvilket giver følgende SQL sætning.
 ````
 	SELECT * FROM users WHERE user='whatever' AND pass='test' OR 'a' = 'a'
 ````
-Her returneres alt fra **users** hvis **user** er **whatever** og **pass** er **test** (hvilket jo nok aldrig vil passe) eller hvis **'a' = 'a'** (hvilket altid er tilfældet. )
+Her returneres alt fra **users** hvis **user** er **whatever** og **pass** er **test** (hvilket jo nok aldrig vil passe) eller hvis user er **whatever** og password er **test** (hvilket nok heller ikke er tilfældet). Eller hvis **'a' = 'a'** (hvilket altid er tilfældet.)
+
+## Hvordan sikre vi vores sites mod SQLi attackt
+
+
+
+
+
+
+## Er dette overhodet et problem?
+
 
 
 
