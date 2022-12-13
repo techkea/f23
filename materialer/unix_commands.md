@@ -42,77 +42,83 @@
 **Change directory**
 
 ````
-    cd                      # Change directory
-    cd ..                   # Change dir to its parent (one folder back)
-    cd .                    # stay in this directory (this one you will never use!)
-    cd /path/to/folder/     # Change dir to path
+	cd                      # Change directory
+	cd ..                   # Change dir to its parent (one folder back)
+	cd .                    # stay in this directory (this one you will never use!)
+	cd /path/to/folder/     # Change dir to path
 ````
 
 **List folders content**
 ````
-    ls                      # list of files and folders
+	ls                      # list of files and folders
 ````
 
 **Print Working Directory**
 ````
-    pwd                     # what folder am i in?
+	pwd                     # what folder am i in?
 ````
 
 **Create folder and files**
 ````
-    mkdir <foldername>      # create a folder
-    touch <filname>         # create file
+	mkdir <foldername>      # create a folder
+	touch <filname>         # create file
 
-    # powershell
-    echo $null >> <filename>
 ````
 
 
 **Rename file**
 ````
-    mv <oldname> <newname>  # rename file
+	mv <oldname> <newname>  # rename file
 ````
 
 **Cut and Paste**
 ````
-    mv <file> <../dirname/>   # Move file to new location
+	mv <file> <../dirname/>   # Move file to new location
 ````
 
 **Copy file**
 ````
-    cp <filename> <newname> # copy file 
+	cp <filename> <newname> # copy file 
 ````
 **Delete files and folders**
 ````
-    rm <filename>           # deletes file
-    rm -r <foldername>      # delete folder and the content inside
+	rm <filename>           # deletes file
+	rm -r <foldername>      # delete folder and the content inside
 ````
 
 **Open files**
 ````
-    open <filename>         # open a file in its default editor or application
-    
-    # windows
-    code <filename>         # Windows: this does not work instead use code <filename> to open a file in vscode    
+	nano <filename>         # open a file in the 'nano' editor
+	or
+	cat <filename>          #  open a file with the 'cat' application
 
 ````
+
 **Administrator rights**
 ````
-    sudo                    # put sudo in front of command to have admin rights (only mac / Linux) - ei. sudo rm -r <foldername>
+	sudo                    # put sudo in front of command to have admin rights (ei. sudo rm -r <foldername>)
+````
+**Install programs / applications on Linux
+````
+	sudo apt install <application name>		# 
+	or 
+	sudo apt install <application name> -y  	# -y to accept all yes/no questions during installation
+
 ````
 
-**cat**
+**Search for apt applications**
 ````
-    cat example.py          # shows the content of the file in the terminal, and other things
-````
+	apt-cache search keyword			# search the application repository for alikes based on the keyword    
 
+````
 
 **Keybord shortcuts**
 * Arrow up ▲ : Toggle the previous terminal commands
-* cmd + k : Clear terminal (you can also type: clear + enter)
-* TAB ⇥ : type the start of a file- or folder-name press TAB for autocomplete.
+* ctrl + l : Clear terminal (you can also type: clear + enter)
+* TAB ⇥ : type the start of a file- or folder- name, then press TAB for autocomplete.
 
 
-<div align="center">
-<a href="/../../../Lesson_01_introduction_to_python_and_python_strings/blob/master/README.md">back</a> 
-</div>
+
+
+
+
