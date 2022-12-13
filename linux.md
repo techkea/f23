@@ -39,14 +39,13 @@ Se og følg tutorials i de tre videoer:
 
 ### Øvelser
 #### 1. Linux shell øvelser
-[Lav følgende øvelser i din linux installation](/materialer/exercises/unix_commands_exercises.md)
+[Lav følgende øvelser i din linux installation](materialer/unix_exercises/unix_commands_exercises.md)
 
-#### 1. Kør et javaprogram på din linux computer.
-<!-- TODO:
-	installer git, openjdk, nano	
-	clone repository
-	Lav ændringer i koden
-	javac compilering
-	java run programmet
+#### 2. Kør et javaprogram på din linux computer.
 	
- -->
+1. installer git, openjdk, nano på din linux maskine	
+2. clone dette repository: https://github.com/techkea/simple-java-app.git
+3. Lav ændringer i koden ved at redigere javafilen i **nano**
+4. Kompiler din kode (brug kommandoen javac)
+5. Kør dit program (brug kommandoen java)
+	
