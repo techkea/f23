@@ -35,10 +35,27 @@ Skriv denne kommando i din terminal for at download Ubuntu (Linux):
 	$ docker pull clbo/ubuntu:1.0.0
 ````
 
-Det tager et minuts tid og når det er sket skal du åbne Docker desktop.
+Det tager ca. et minuts tid og når det er sket skal du åbne **Docker desktop** og gå til **Images** menupunktet.
 
-![](../img/desktop_1.png)
+![](../img/desktop/desktop_1.png)
 
+Du burde have noget der ser nogenlunde sådan ud.
+
+#### Start Linux
+Under **Actions** i det image der hedder **clbo/ubuntu** skal du trykke på **start** knappen.    
+
+![](../img/deesktop/desktop_2.png)
+
+Skriv **Linux** i **Container name** feltet og **8080** i **Host port** feltet og klik på **Run**
+
+![](../img/desktop/desktop_3.png)
+
+Under **Container** menupunktet klik på **Run in terminal** under **Actions**.    
+Du har nu en **Terminal** som du kan bruge til at interagerer med dit linux OS.   
+
+![](../img/desktop/desktop_4.png)
+
+Som det første skriv ````bash```` og tryk på enter.    
 
 <!--
 Efter Linux er downloadet og startet skulle du gerne se noget lignenede dette i din terminal: 
