@@ -12,5 +12,6 @@
 ## Hjemmearbejde
 
 ## Materialer
-
+* [SQL Injections are scary!! (hacking tutorial for beginners)](https://www.youtube.com/watch?v=2OPVViV-GQk)
+* [SQLi fra undervisningen](materialer/sqli.md)
 ### Øvelser

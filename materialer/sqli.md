@@ -5,6 +5,7 @@
 # SQL INJECTIONS
 
 ## HTTP get vs post
+
 ![](../img/sqlinject/get_post.png)
 
 ##
@@ -77,14 +78,22 @@ Hvilket giver følgende SQL sætning.
 ````
 Her returneres alt fra **users** hvis **user** er **whatever** og **pass** er **test** (hvilket jo nok aldrig vil passe) eller hvis user er **whatever** og password er **test** (hvilket nok heller ikke er tilfældet). Eller hvis **'a' = 'a'** (hvilket altid er tilfældet.)
 
-## Hvordan sikre vi vores sites mod SQLi attackt
+## Hvordan bruges dette i praksis (attack)
+* payload lists
+* 
+
+
+## Hvordan sikre vi vores sites mod SQLi (defend)
+* preparedStatements og parameterbaserede variabeloverførelser.
+* whitelabel error pages (default)
 
 
 
 
 
+## Er SQLi et reelt problem?
+1[](../img/sqlinject/mapping.png)
 
-## Er dette overhodet et problem?
 
 
 
