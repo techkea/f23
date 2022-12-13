@@ -57,7 +57,7 @@ Du har nu en **Terminal** som du kan bruge til at interagerer med dit linux OS.
 
 Som det første skriv ````bash```` og tryk på enter.    
 
-<!--
+<!--   
 Efter Linux er downloadet og startet skulle du gerne se noget lignenede dette i din terminal: 
 
 ````
@@ -68,6 +68,8 @@ Efter Linux er downloadet og startet skulle du gerne se noget lignenede dette i 
 	clbo@5743d5b63a70:/$ 	
 
 ````
+-->    
+
 Nu har du et linux operativsystem kørende på sin computer og gennem din terminal har du mulighed for at interagere med (bruge) dette operativsystem.
 
 ### Start og stop din linux maskine
