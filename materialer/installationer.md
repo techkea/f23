@@ -12,12 +12,12 @@ Det første du skal installere er programmet Docker Desktop. I første om gang k
 ### Download og installer Docker Desktop
 Naviger til [Dockers website](https://www.docker.com/) og download og installer Docker Desktop.
 
-### Windows Home 10
+#### Windows Home 10
 Hvis du skulle have Windows 10 Home på din computer skal du følge denne fremgangsmåde som er beskrevet her:
 [Install Docker Desktop on Windows Home](https://docs.docker.com/docker-for-windows/install-windows-home/)
 
 #### Check om alt er installeret korrekt
-I din terminal, gitbash eller powershell skal du skrive ``` docker --version ```, hvilket skulle give din følgende resultat:  
+I din terminal, gitbash eller powershell skal du skrive ``` docker --version ```, hvilket skulle give dig følgende resultat:  
 
 ````
 	$ docker --version
