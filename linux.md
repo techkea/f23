@@ -38,6 +38,9 @@ Se og følg tutorials i de tre videoer:
 
 
 ### Øvelser
+#### 1. Linux shell øvelser
+[Lav følgende øvelser i din linux installation](/materialer/exercises/unix_commands_exercises.md)
+
 #### 1. Kør et javaprogram på din linux computer.
 <!-- TODO:
 	installer git, openjdk, nano	
