@@ -4,17 +4,25 @@
 
 
 # Unix Commands Exercises
-Before doing these exercises be sure to read the tutorial [CommandLineCrashCourse.pdf](../../materialer/CommandLineCrashCourse.pdf)
 
-## Necessary files to complete this exercise.
+# Download thise files
+In your linux application cd into the /tmp folder.    
 
-* [ex1.acc](ex1.acc)    
-* [ex1.dat](ex1.dat)    
-* [orphans.sp](orphans.sp)    
+Then use the commands 
+
+````
+	wget https://raw.githubusercontent.com/techkea/f23/master/materialer/unix_exercises/ex1.acc
+	wget https://raw.githubusercontent.com/techkea/f23/master/materialer/unix_exercises/ex1.dat
+	wget https://raw.githubusercontent.com/techkea/f23/master/materialer/unix_exercises/orphans.sp
+
+````  
+
+Notice that ```` wget ```` might not be installed on your system. If not you have to install it first.
 
 You can play around with these files as much as you like. If you change or destroy them, just download them again.
 
-Note: All the following actions should be done through the terminal. It is not all commands that have been covered in class or the reading material, so you will have to search for how to solve some of the problems. You are welcome to work together but you all have to do the exercises individually.   
+
+Note: It is not all commands that have been covered in class or the material, so you will have to search for how to solve some of the problems. You are welcome to work together but you all have to do the exercises individually.   
 
 ## Exercises
 1. Start by creating a directory (folder) where all the exercise files will be placed. You decide where, but a good place would be on your desktop, or in your document directory.
