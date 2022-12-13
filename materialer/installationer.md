@@ -12,18 +12,18 @@ Det første du skal installere er programmet Docker Desktop. I første om gang k
 ### Download og installer Docker Desktop
 Naviger til [Dockers website](https://www.docker.com/) og download og installer Docker Desktop.
 
-### Windows Home 10
+#### Windows Home 10
 Hvis du skulle have Windows 10 Home på din computer skal du følge denne fremgangsmåde som er beskrevet her:
 [Install Docker Desktop on Windows Home](https://docs.docker.com/docker-for-windows/install-windows-home/)
 
 #### Check om alt er installeret korrekt
-I din terminal, gitbash eller powershell skal du skrive ``` docker --version ```, hvilket skulle give din følgende resultat:  
+I din terminal, gitbash eller powershell skal du skrive ``` docker --version ```, hvilket skulle give dig følgende resultat:  
 
 ````
 	$ docker --version
 	Docker version 20.10.20, build 9fdeb9c
 ````
-Versionsnummeret kan variere, men hvis du ikke kan se dette eller ser en fejl, har du ikke fåeet installeret Docker Desktop korrekt, og skal derfor gentage processen.
+Versionsnummeret kan variere, men hvis du ikke kan se dette eller ser en fejl, har du ikke fået installeret Docker Desktop korrekt, og skal derfor gentage processen.
 
 
 ### Download, Installer og Kør din linux OS
@@ -57,7 +57,7 @@ Du har nu en **Terminal** som du kan bruge til at interagerer med dit linux OS.
 
 Som det første skriv ````bash```` og tryk på enter.    
 
-<!--
+<!--   
 Efter Linux er downloadet og startet skulle du gerne se noget lignenede dette i din terminal: 
 
 ````
@@ -68,7 +68,9 @@ Efter Linux er downloadet og startet skulle du gerne se noget lignenede dette i 
 	clbo@5743d5b63a70:/$ 	
 
 ````
-Nu har du et linux operativsystem kørende på sin computer og gennem din terminal har du mulighed for at interagere med (bruge) dette operativsystem.
+-->    
+
+Nu har du et linux operativsystem kørende på din computer og gennem din terminal har du mulighed for at interagere med (bruge) dette operativsystem.
 
 ### Start og stop din linux maskine
 Når du fremover vil starte og stoppe din linux maskine kan du bruge Docker Desktops interface og under Actions henholdsvis trykke på start/stop knappen.
