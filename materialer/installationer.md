@@ -23,7 +23,7 @@ I din terminal, gitbash eller powershell skal du skrive ``` docker --version ```
 	$ docker --version
 	Docker version 20.10.20, build 9fdeb9c
 ````
-Versionsnummeret kan variere, men hvis du ikke kan se dette eller ser en fejl, har du ikke fåeet installeret Docker Desktop korrekt, og skal derfor gentage processen.
+Versionsnummeret kan variere, men hvis du ikke kan se dette eller ser en fejl, har du ikke fået installeret Docker Desktop korrekt, og skal derfor gentage processen.
 
 
 ### Download, Installer og Kør din linux OS
