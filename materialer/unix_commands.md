@@ -96,12 +96,14 @@
 
 **Administrator rights**
 ````
-	sudo                    # put sudo in front of command to have admin rights (ei. sudo rm -r <foldername>)
+	sudo                    # put sudo in front of command to have admin rights (ei. sudo rm -r <foldername>)    
+				# on your linux installation your user has:
+	# username: clbo
+	# password: clbo
 ````
-**Install programs / applications on Linux
+**Install programs / applications on Linux**
 ````
-	sudo apt install <application name>		# 
-	or 
+	sudo apt install <application name>		#  
 	sudo apt install <application name> -y  	# -y to accept all yes/no questions during installation
 
 ````
