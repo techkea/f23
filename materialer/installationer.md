@@ -70,7 +70,7 @@ Efter Linux er downloadet og startet skulle du gerne se noget lignenede dette i 
 ````
 -->    
 
-Nu har du et linux operativsystem kørende på sin computer og gennem din terminal har du mulighed for at interagere med (bruge) dette operativsystem.
+Nu har du et linux operativsystem kørende på din computer og gennem din terminal har du mulighed for at interagere med (bruge) dette operativsystem.
 
 ### Start og stop din linux maskine
 Når du fremover vil starte og stoppe din linux maskine kan du bruge Docker Desktops interface og under Actions henholdsvis trykke på start/stop knappen.
