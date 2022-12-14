@@ -44,7 +44,7 @@ Du burde have noget der ser nogenlunde sådan ud.
 #### Start Linux
 Under **Actions** i det image der hedder **clbo/ubuntu** skal du trykke på **start** knappen.    
 
-![](../img/deesktop/desktop_2.png)
+![](../img/desktop/desktop_2.png)
 
 Skriv **Linux** i **Container name** feltet og **8080** i **Host port** feltet og klik på **Run**
 
