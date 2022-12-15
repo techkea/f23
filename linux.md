@@ -40,7 +40,7 @@ Se og følg tutorials i de tre videoer:
 
 ### Øvelser
 #### 1. Linux shell øvelser
-[Lav følgende øvelser i din linux installation](materialer/unix_exercises/unix_commands_exercises.md)
+[Lav følgende øvelser i din linux installation](materialer/unix_exercises/unix_commands_exercises.md) - ([løsninger](materialer/solutions/solution_unix_commands_exercises.md) (kommer efter næste undervisningsgang i næste uge))
 
 #### 2. Kør et javaprogram på din linux computer.
 	
