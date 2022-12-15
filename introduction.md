@@ -8,7 +8,7 @@ Der vil ikke være nogen forberedelse til denne første lektion.
 
 ## Dagens indhold
 <!-- TODO:
-	* 
+	 
    -->
 ### Læringsmål
  
@@ -19,7 +19,7 @@ Der vil ikke være nogen forberedelse til denne første lektion.
 * Kende til og kunne navigere i dit styrresystems mapper, filer.
 
 ## Hjemmearbejde
-
+* []()
 ## Materialer
 
 ### Øvelser
