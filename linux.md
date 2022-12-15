@@ -2,8 +2,7 @@
 <script src="script.js"></script>
 
 # Linux OS
-## Forberedelse 
-_ca. 1 time_
+## Forberedelse (ca. 1 time)
 
 * Installer linux på din egen computer ved at følge [denne tutorial](materialer/installationer.md). (15 minutter)
 
@@ -27,8 +26,7 @@ Se og følg tutorials i de tre videoer:
 * Kunne installere applikationer i dit linux system.
 * kunne eksevere applikationer (java programmer) på din linux computer.  
 
-## Hjemmearbejde 
-_(1 time)_    
+## Hjemmearbejde (ca. 1 time)    
 * Lav øvelserne 1 og 2.
 
 ## Materialer
