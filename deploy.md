@@ -1,22 +1,21 @@
-
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="script.js"></script>
 
-# Deployment med Github, Heroku og Dreamhost
+# Deployment med Github, PlanetScale og Render 
 
-## Læringsmål
-* Kunne deploy en Spring Boot App uden tilhørende database til Heroku via github. 
-* Kunne opsætte "Automatic Deploys" fra en applications Master branch
-<!-- * Kunne deploye et statisk website vie github pages
-* Kunne forklare forskellen på deployment af statiske sider og en web applikation. 
--->
+
+## Forberedelse
+
+
+## Dagens indhold
+
+### Læringsmål
+* Kunne deploy en Spring Boot Web Applikation med tilhørende database til Render og PlanetScale via github. 
+
+## Hjemmearbejde
 
 ## Materialer
-* [Deploy Springboot App to Heroku with Github](https://dev.to/kristijanfistrek/deploy-springboot-app-to-heroku-with-github-27ij)
-* [Heroku & Java 11](https://devcenter.heroku.com/changelog-items/1489)
-<!--
-* [What is GitHub Pages?](https://pages.github.com/)
--->
+* [Deploy Springboot App til Render og PlaneScale via Github](materialer/deploy_tutorial.md)
 
 ## Øvelser
 
