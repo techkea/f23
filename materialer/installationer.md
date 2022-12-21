@@ -10,11 +10,11 @@ Herunder finder du en beskrivelse af hvad og hvordan du skal installere det soft
 Det første du skal installere er programmet Docker Desktop. I første om gang kan du bare se dette program som en beholder som du så efterfølgende kan installere linux og andre programmer i. 
 
 ### Download og installer Docker Desktop
-Naviger til [Dockers website](https://www.docker.com/) og download og installer Docker Desktop.
+Naviger til **[Dockers website](https://www.docker.com/)** og download og installer Docker Desktop.
 
 #### Windows Home 10
 Hvis du skulle have Windows 10 Home på din computer skal du følge denne fremgangsmåde som er beskrevet her:
-[Install Docker Desktop on Windows Home](https://docs.docker.com/docker-for-windows/install-windows-home/)
+**[Install Docker Desktop on Windows Home](https://docs.docker.com/docker-for-windows/install-windows-home/)**
 
 #### Check om alt er installeret korrekt
 I din terminal, gitbash eller powershell skal du skrive ``` docker --version ```, hvilket skulle give dig følgende resultat:  
@@ -28,9 +28,10 @@ Versionsnummeret kan variere, men hvis du ikke kan se dette eller ser en fejl, h
 
 ### Download og Kør dit linux OS
 
-#### 1. Download
+#### 1. Download    
+
 Det første du skal gøre er at downloade og køre et linux operativsystem inde i dette Docker program. Det linux OS vi kommer til at bruge hedder Ubuntu.
- 
+
 Skriv denne kommando i din terminal for at download Ubuntu (Linux):
 
 ````
@@ -44,6 +45,7 @@ Det tager ca. et minuts tid og når det er sket skal du åbne **Docker desktop**
 Du burde have noget der ser nogenlunde sådan ud.
 
 #### 2. Start Linux
+
 Under **Actions** i det image der hedder **clbo/ubuntu** skal du trykke på **start** knappen.    
 
 ![](../img/desktop/desktop_2.png)
