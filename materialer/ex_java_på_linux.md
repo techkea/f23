@@ -4,7 +4,7 @@
 #### 2. Kør et javaprogram på din linux computer.
 	
 1. installer git, openjdk, nano på din linux maskine	
-2. clone dette repository: https://github.com/techkea/simple-java-app.git
+2. clone dette repository: [https://github.com/techkea/simple-java-app.git](https://github.com/techkea/simple-java-app.git)
 3. Lav ændringer i koden ved at redigere javafilen i **nano**
 4. Kompiler din kode (brug kommandoen javac)
 5. Kør dit program (brug kommandoen java)
