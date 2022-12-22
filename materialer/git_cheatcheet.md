@@ -11,6 +11,7 @@
 - git add \<filename\>: adds files to staging area
 - git commit -m "commit msg": creates a new commit
 - git log: shows a flattened log of history
+- git log --all --graph --deecorated: show a log with all branches and a decorated graph 
 - git checkout \<revision\>: updates HEAD and current branch
 
 <!--
