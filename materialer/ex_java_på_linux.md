@@ -8,4 +8,5 @@
 3. Lav ændringer i koden ved at redigere javafilen i **nano**
 4. Kompiler din kode (brug kommandoen javac)
 5. Kør dit program (brug kommandoen java)
+6. Gentag øvelsen 3 gange mere :)
 	
