@@ -4,7 +4,7 @@
 # Git branching øvelser
 
 
-## Branch øvelse
+## 1. Branch øvelse
 I IntelliJ skal du oprette et nyt projekt (eller bruge noget af det du allerede har lavet i programmeringsfaget).    
 Initialiser det som et git repopsitory. 
 
@@ -33,7 +33,7 @@ Undersøg med
 
 hvor mange branches du har og skift mellem de 2 (master og feat1). Hold øje med din kode i IntelliJ og læg mærke til at den er forskellig.
 
-## Merge øvelse (uden konflikter)
+## 2. Merge øvelse (uden konflikter)
 Sørg for at du er i din ```` master ```` branch.    
 
 Du skal nu smelte den kode du har lavet i din ```` feat1 ```` branch sammen med det du har i ```` master ````.
@@ -42,7 +42,7 @@ Du skal nu smelte den kode du har lavet i din ```` feat1 ```` branch sammen med 
 
 Tjek din kode i IntelliJ og se at du har smeltet det sammen.
 
-## Merge øvelse (med merge konflikter)
+## 3. Merge øvelse (med merge konflikter)
 Lav en ny branch og kald den ```` feat2 ```` 
 
 Lav noget ny funktionallitet til din kode. Dette skal være en ændring i en fil og noget kode der allerede eksisterer. 
