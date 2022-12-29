@@ -9,6 +9,7 @@
 ## 1. Deploy en Spring boot Web App
 
 * Clon denne [spring boot web applikation]() 
+* generer en jar fil af projektet.
 * pushe den til  din egen githubkonto.
 * Deploye den til Render og PlanetScale.
 
