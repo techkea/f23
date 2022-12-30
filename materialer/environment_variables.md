@@ -16,7 +16,7 @@ Problemet med denne metode er at alle i hele verden vil kunne se jeres brugernav
 En løsning er at gøre jeres github repository "private", men det kan give problemer i forhold til "colaborators" og andre der skal se jeres kode (feks. din lære).     
 
 ### Environment variabler (miljøvariabler)
-En anden mere holdbar løsning er at slette indholdet i application.properties og så istedet skrive username og password et andet sted end i selve spring boot projektet. Dette kan gøres i din computers miljøvariabler (og i miiljøvariablerne på computeren hos Heroku).
+En anden mere holdbar løsning er at slette indholdet i application.properties og så istedet skrive username og password et andet sted end i selve spring boot projektet. Dette kan gøres i din computers miljøvariabler (og i miljøvariablerne på computeren hos **Render**).
 
 Det følgende er en beskrivelse af hvordan du gør dette. 
 
