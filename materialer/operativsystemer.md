@@ -21,7 +21,7 @@
 
 ![](../img/binary_ascii.png)
 
-[Text to Binary Converter](https://www.rapidtables.com/convert/number/ascii-to-binary.html)
+Text to Binary Converter: https://www.rapidtables.com/convert/number/ascii-to-binary.html
 
 ### Computerarkitektur
 ![](../img/os_hardware_stack.png)
