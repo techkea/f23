@@ -30,19 +30,21 @@ Versionsnummeret kan variere, men hvis du ikke kan se dette eller ser en fejl, h
 
 #### 1. Download    
 
-Det første du skal gøre er at downloade og køre et linux operativsystem inde i dette Docker program. Det linux OS vi kommer til at bruge hedder Ubuntu.
+Det næste du skal gøre er at downloade og køre et linux operativsystem inde i dette Docker program. Det linux OS vi kommer til at bruge hedder Ubuntu. Når du har gjort det har du installeret Linux på din egen maskine, side om side med enten windows eller macos. 
 
+##### Windows
 Hvis du har Windows på din computer skal du åbne programmet **PowerShell**. Dette gøres nemmest ved at skrive "Powershell" i søgefeltet nederst til venstre på skærmen. 
 
 ![](../img/desktop/powershell.png)
 
+##### Mac
 Hvis du har Mac skal du åbne programmet **Terminal**. Dette gøres nemmest ved at søge via **spotlight**.
 
 ![](../img/desktop/terminal.png) 
 
 
 
-Copy/paste herefter denne kommando i din terminal for at download Ubuntu (Linux):
+Copy/paste herefter denne kommando i din terminal for at downloadie og starte Ubuntu (Linux):
 
 ````
 	$ docker run -it --name Linux -p 8080:8080 clbo/ubuntu:1.0.0 
@@ -85,6 +87,11 @@ Efter Linux er downloadet og startet skulle du gerne se noget lignenede dette i 
 -->    
 
 Nu har du et linux operativsystem kørende på din computer og gennem din terminal har du mulighed for at interagere med (bruge) dette operativsystem.
+
+### Åben terminalen i Linux
+I højre side kan du ved at trykke på de 3 prikker vælge "Open in termianl". Dette åbner terminalen på din Linux computer, og du vil nu kunne arbejde med systemet. 
+
+![](../img/desktop/desktop_3.png)
 
 ### Start og stop din linux maskine
 Når du fremover vil starte og stoppe din linux maskine kan du bruge Docker Desktops interface og under Actions henholdsvis trykke på start/stop knappen.
