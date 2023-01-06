@@ -89,9 +89,15 @@ Efter Linux er downloadet og startet skulle du gerne se noget lignenede dette i 
 Nu har du et linux operativsystem kørende på din computer og gennem din terminal har du mulighed for at interagere med (bruge) dette operativsystem.
 
 ### Åben terminalen i Linux
-I højre side kan du ved at trykke på de 3 prikker vælge "Open in termianl". Dette åbner terminalen på din Linux computer, og du vil nu kunne arbejde med systemet. 
+I højre side kan du ved at trykke på de 3 prikker vælge "Open in termianl". 
 
 ![](../img/desktop/desktop_3.png)
+
+Dette åbner terminalen på din Linux computer, og du vil nu kunne arbejde med systemet. 
+
+Skriv "bash" og tryk på enter, og du skulle se noget der ligner dette:
+
+![](../img/desktop/desktop_4.png)
 
 ### Start og stop din linux maskine
 Når du fremover vil starte og stoppe din linux maskine kan du bruge Docker Desktops interface og under Actions henholdsvis trykke på start/stop knappen.
