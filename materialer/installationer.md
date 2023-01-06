@@ -32,18 +32,28 @@ Versionsnummeret kan variere, men hvis du ikke kan se dette eller ser en fejl, h
 
 Det første du skal gøre er at downloade og køre et linux operativsystem inde i dette Docker program. Det linux OS vi kommer til at bruge hedder Ubuntu.
 
-Skriv denne kommando i din terminal for at download Ubuntu (Linux):
+Hvis du har Windows på din computer skal du åbne programmet **PowerShell**. Dette gøres nemmest ved at skrive "Powershell" i søgefeltet nederst til venstre på skærmen. 
+
+![](../img/desktop/powershell.png)
+
+Hvis du har Mac skal du åbne programmet **Terminal**. Dette gøres nemmest ved at søge via **spotlight**.
+
+![](../img/desktop/terminal.png) 
+
+
+
+Copy/paste herefter denne kommando i din terminal for at download Ubuntu (Linux):
 
 ````
-	$ docker pull clbo/ubuntu:1.0.0
+	$ docker run -it --name Linux -p 8080:8080 clbo/ubuntu:1.0.0 
 ````
 
-Det tager ca. et minuts tid og når det er sket skal du åbne **Docker desktop** og gå til **Images** menupunktet.
+Det tager ca. et minuts tid og når det er sket skal du åbne **Docker desktop** og gå til **Containers** menupunktet.
 
-![](../img/desktop/desktop_1.png)
+![](../img/desktop/desktop_01.png)
 
-Du burde have noget der ser nogenlunde sådan ud.
 
+<!-- 
 #### 2. Start Linux
 
 Under **Actions** i det image der hedder **clbo/ubuntu** skal du trykke på **start** knappen.    
@@ -87,7 +97,7 @@ Du vil også under de tre prikker under Actions kunne åbne en terminal, hvoreft
 
 
 ### Slet din Linux maskine
-Hvis noget går galt med din linux installation, eller du bare har lyst til at starte forfra med en frisk installation, e det eneste du skal gøre bare at slette din installation og herefter gentage punkt **2. Start Linux**.
+Hvis noget går galt med din linux installation, eller du bare har lyst til at starte forfra med en frisk installation, er det eneste du skal gøre bare at slette din installation og herefter gentage punkt **2. Start Linux**.
 
 
 ![](../img/desktop/desktop_5.png)
