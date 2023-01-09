@@ -89,13 +89,13 @@ Efter Linux er downloadet og startet skulle du gerne se noget lignenede dette i 
 Nu har du et linux operativsystem kørende på din computer og gennem din terminal har du mulighed for at interagere med (bruge) dette operativsystem.
 
 ### Åben terminalen i Linux
-I højre side kan du ved at trykke på de 3 prikker vælge "Open in termianl". 
+I højre side kan du ved at trykke på de 3 prikker vælge "Open in terminal". 
 
 ![](../img/desktop/desktop_3.png)
 
 Dette åbner terminalen på din Linux computer, og du vil nu kunne arbejde med systemet. 
 
-Skriv "bash" og tryk på enter, og du skulle se noget der ligner dette:
+Docker desktop vil som udgangspunkt starte i **sh** terminalen så skriv **bash** og tryk på enter, og du skulle se noget der ligner dette:
 
 ![](../img/desktop/desktop_4.png)
 
