@@ -69,7 +69,26 @@ Skriv nu ````show databases;```` og du kan se hvilke databaser der allerede er i
 
 ```
 
-### Forbinde gennem programmet MySQl Workbench
+### Forbind gennem programmet MySQL Workbench
+MySQL Workbench er et GUI, og altså et grafisk interface som kan bruges til at forbinde til din(e) databaser. Både databaser lokalt installeret på din egen computer (som det du lige har gjort) eller databaser som ligger online (og altså installeret på nogle andres computer).
+
+
+#### Installation
+Det første du skal gøre er at installere dette program. Dette gør vi nu gennem chocolatey (Windows) eller brew (Mac OS).
+
+Windows: 
+
+```
+	choco install mysql.workbench
+```
+
+Mac:
+
+```
+	$ brew install --cask mysqlworkbench
+
+```
+
 
 
 
