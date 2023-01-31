@@ -47,7 +47,7 @@ Hvis du har Mac skal du åbne programmet **Terminal**. Dette gøres nemmest ved 
 Copy/paste herefter denne kommando i din terminal for at downloadie og starte Ubuntu (Linux):
 
 ````
-	$ docker run -it -d --name Linux -p 8080:8080 clbo/ubuntu:1.0.0 
+	docker run -it -d --name Linux -p 8080:8080 clbo/ubuntu:0.1.13 
 ````
 
 Det tager ca. et minuts tid og når det er sket skal du åbne **Docker desktop** og gå til **Containers** menupunktet.
