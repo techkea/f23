@@ -18,3 +18,40 @@ Du kan eksekvere en JAR-fil i detached mode i terminalen, fx en Spring Boot-appl
 Med dette vil JAR-filen blive eksekveret i baggrunden, selv efter at du har lukket terminalen. "nohup" forhindrer, at procesen bliver annulleret, når terminalen lukkes, og "&" begynder at køre procesen i baggrunden.
 
 Husk, at du muligvis skal angive den fuld sti til JAR-filen, hvis den ikke befinder sig i den aktuelle arbejdsmappe.
+
+
+## Stop din web app 
+For at stoppe eksekveringen af JAR-filen, der kører i baggrunden, skal du først finde PID'en (proces-ID) for den relevante proces. Du kan gøre dette ved at bruge følgende kommando:
+
+```
+	ps -ef | grep java
+
+```
+
+Dette vil vise en liste over alle kørende Java-processer, inklusive den, der kører din JAR-fil. Find linjen, der matcher din JAR-fil, og noter PID'en, der er anivet i begyndelsen af linjen.
+
+Derefter kan du stoppe processen ved at bruge følgende kommando:
+
+```
+	kill <PID>
+```
+
+Hvor <PID> er PID'en for den relevante proces.
+
+Dette vil sende en SIGKILL-signal til processen, hvilket vil afslutte den øjeblikkeligt. Hvis processen ikke reagerer på SIGKILL-signalet, kan du prøve at sende et SIGTERM-signal i stedet ved at bruge følgende kommando:
+
+```
+	kill -15 <PID>
+```
+Dette giver processen mulighed for at lukke ned ordentligt.
+
+
+## Start docker ved start af din virtuelle maskine
+
+TODO: Startup script
+
+## Start app.jar ved start af din virtuelle maskine
+
+TODO: Startupscript
+
+
