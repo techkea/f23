@@ -52,14 +52,14 @@ TODO: Startup script
 
 ## Start app.jar ved start af din virtuelle maskine
 Du kan automatisk eksekvere et Java-script på en Ubuntu-maskine ved at oprette en ny opstartstjeneste. 
-
 Her er de overordnede trin:
 
-1. Opret en ny fil med navnet "app.service" i mappen "/etc/systemd/system/"
+Opret en ny fil med navnet "app.service" i mappen "/etc/systemd/system/"
 
-2. Tilføj følgende indhold til filen:
+Tilføj følgende indhold til filen:
 
 ```
+
 	[Unit]
 	Description=My App Service
 
@@ -69,34 +69,5 @@ Her er de overordnede trin:
 
 	[Install]
 	WantedBy=multi-user.target
-```
-
-3. Erstat stien til app.jar med den rigtige sti til din Java-applikation.
-
-4. Erstat <user_to_run_as> med brugernavnet for den bruger, som tjenesten skal køre som.
-
-5. Gem filen og lav den eksekverbare med kommanden:
-
-```
-	sudo chmod 644 /etc/systemd/system/app.service
-
-```
-6. Genstart systemd med kommanden:
-
-```
-
-	sudo systemctl daemon-reload
-```
-7. Aktiver tjenesten med kommanden:
-
-```
-	sudo systemctl enable app.service
-```
-
-
-Når du starter din Ubuntu-maskine, vil Java-applikationen blive startet automatisk via systemd-tjenesten. Du kan overvåge tjenesten med kommanden 
-
-```
-	systemctl status app.service
 ```
 
