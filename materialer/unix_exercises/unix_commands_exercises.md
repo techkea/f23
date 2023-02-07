@@ -25,6 +25,7 @@ You can play around with these files as much as you like. If you change or destr
 Note: It is not all commands that have been covered in class or the material, so you will have to search for how to solve some of the problems. You are welcome to work together but you all have to do the exercises individually.   
 
 ## Exercises
+1. Start by creating a directory (folder) where all the exercise files will be placed.
 1. Create a file with the name to_be_deleted.txt
 1. delete the file to_be_deleted.txt
 1. Move the 3 exercise files into this directory.

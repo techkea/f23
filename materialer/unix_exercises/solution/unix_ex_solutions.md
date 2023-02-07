@@ -2,6 +2,11 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="../../../script.js"></script>
 
+1. ```mkdir exercises```
+2. ```touch to_be_deleted.txt```
+3. ```rm to_be_deleted.txt```
+4. ```mv ex1.acc ex1.dat orphans.sp exercises```
+5. ```nano mycommands.txt```
 6. ls
 7. cp ex1.acc  myfile.acc
 8. cat ex1.acc (cat myfile.acc)
