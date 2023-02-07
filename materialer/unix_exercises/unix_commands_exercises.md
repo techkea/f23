@@ -29,7 +29,7 @@ Note: It is not all commands that have been covered in class or the material, so
 1. Create a file with the name to_be_deleted.txt
 1. delete the file to_be_deleted.txt
 1. Move the 3 exercise files into this directory.
-1. Use a text editor (VS Code is good choise) to create a file called mycommands.txt where you write all commands and observations you do in the following exercises. Use copy/paste to copy the commands. from the terminal to your text file.
+1. Use a text editor (nano) to create a file called mycommands.txt where you write all commands and observations you do in the following exercises. Use copy/paste to copy the commands. from the terminal to your text file.
 1. First list the files in the directory.
 1. Copy ex1.acc to myfile.acc.
 1. Look at the content of both files to ensure they are identical.
