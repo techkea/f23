@@ -5,7 +5,9 @@
 
 # Unix Commands Exercises
 
-# Download thise files
+## [Solution](solution/unix_ex_solutions.md)
+
+# Download these files
 In your linux application cd into the /tmp folder.    
 
 Then use the commands 
