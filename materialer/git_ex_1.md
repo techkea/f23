@@ -79,6 +79,8 @@ Og tegn en "commit graf" (O <-- O <-- O) med id´er og commit messages for dit p
 
 Meningen med denne øvelse er at du får leget med git, og får lavet en masse commits.
 
+Det er desuden vigtigt at du får en forståelse for hvad en commit graph er og hvad de enkelte commits indeholder.
+
 ## Del 2
 Brug nu kommandoen ```` git checkout <commitid> ```` for at gå frem og tilbage i din git historik. Sørg for at du ved hvor du er i forhold til den commit graf du har tegnet tidligere.
 
