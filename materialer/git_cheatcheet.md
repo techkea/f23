@@ -14,6 +14,9 @@
 - git log --all --graph --deecorated: show a log with all branches and a decorated graph 
 - git checkout \<revision\>: updates HEAD and current branch
 
+![](../img/gitdatamodel.jpg)
+
+
 <!--
 ![](../img/git_tavle.JPG)
 
