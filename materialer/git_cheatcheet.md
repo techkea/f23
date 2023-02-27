@@ -22,12 +22,13 @@
 -->
 
 ## Branching and merging
+<!--
 - git branch: shows branches
 - git branch \<name\>: creates a branch
 - git branch -d \<branch name\>: delete branch
+-->
 - git checkout -b <name>: creates a branch and switches to it
-	- same as git branch \<name\>; git checkout \<name\>
-- git merge \<revision\>: merges into current branch
+- git merge \<branch name\>: merges into current branch
 
 ## Configuration
 - .gitignore: file for specifying which files should not be included in commits
