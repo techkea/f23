@@ -19,6 +19,7 @@
 
 <!--
 ![](../img/git_tavle.JPG)
+-->
 
 ## Branching and merging
 - git branch: shows branches
@@ -32,6 +33,7 @@
 	- [example (simple):](materialer/gitignore_simple.txt)
 	- [example (IntelliJ):](materialer/gitignore.txt)
 
+<!--
 ## Remotes (Github)
 - git remote: list remotes
 - git remote -v: list push and fetch remote url
