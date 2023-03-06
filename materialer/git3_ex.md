@@ -37,7 +37,8 @@ Dette giver (højest sandsynligt) nogle merge konflikter, og dem skal i løse.
 **Gentag denne øvelse nogle gange så alle i gruppen prøver at være både nummer 1 og nummer 2**
 
 
-
+## 2. Øvelse 1 men nu med branches
+Gentag øvelse 1, men nu skal hvert gruppemedlems ændringer til koden laves i en ny (personlig) feature branch. Disse branches skal pushes til github og de skal "merges" ind i "master" før denne også "pushes" til github. 
 
 
 <!--
