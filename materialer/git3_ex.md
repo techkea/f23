@@ -37,9 +37,14 @@ Dette giver (højest sandsynligt) nogle merge konflikter, og dem skal i løse.
 **Gentag denne øvelse nogle gange så alle i gruppen prøver at være både nummer 1 og nummer 2**
 
 
-## 2. Geentag øvelse 1 men nu med branches
+## 2. Gentag øvelse 1 men nu med branches
 
 Gentag øvelse 1, men denne gang skal hvert gruppemedlem lave deres ændringer til koden i en ny personlig feature-branch. Disse branches skal pushes til GitHub, og de skal merges ind i "master"-branchen, før den også pushes til GitHub.
+
+
+## 3. Samarbejde i en gruppe vha. et "Integration Manager workflow"
+Gentag Øvelse 1, men denne gang skal I anvende et Integration Manager workflow. Det betyder, at I skal forke projektet og oprette pull requests i stedet for at give alle i gruppen skriveadgang til projektet på GitHub. Der vil være en projektleder (eller muligvis flere), som har rettigheder til at merge de andre gruppemedlemmers ændringer ind i projektets master-branch.
+
 
 
 <!--
