@@ -14,13 +14,12 @@
 * Deploye den til Render og PlanetScale.
 
 
-## 2. Lev en ny feature
+## 2. Lav en ny feature
 
 * Lav en ny feature til applikationen (en mindre en) i en feature branch.
 * Test at det virker som det skal og lav derefter en merge til master branchen. 
 * generer en ny jar fil
 * push det til github
-* Check at det bliver deployet på Render (Automtic deploy).
 
 ## 3. Lav øvelse 1 og 2 igen
 * Slet alt hvad du har oprettet i øvelse 1 og 2.
