@@ -9,28 +9,19 @@
 ## 1. Samarbejde i en gruppe vha. et "Centralized Workflow"
 
 1. Find sammen i en gruppe (min 2 personer) og giv hinanden numre (1, 2, 3 etc.).
-2. Gruppemedlem nummer 1 skal på Github lave et nyt repository og tilføje de andre gruppemedlemmer som "collaborators".
-3. Gruppemedlem nummer 2 skal nu oprette et projekt i IntelliJ med noget meget simpelt "Hello world" kode.
-    * Lav herefter følgende komandoer:
-
-```
-    git init
-    git add .
-    git commit -m "initial commit"
-
-    git remote add origin <clone url (.git) til det nye githubrepository>
-    git push origin master (eller main)
-``` 
+2. Gruppemedlem nummer 1 skal oprette et projekt i IntelliJ med noget meget simpelt "Hello world" kode.
+    * commit og push herefter koden til github.
+    * Tilføj herefter de andre gruppemedlemmer som "colaborators" til dette github repository.
+3. De andre gruppemedlemmer skal nu klone dette repository. 
  
-4. Alle andre gruppemedlemmer skal nu ````git clone <clone url (.git) til det nye githubrepository>```` det nye repository. 
-5. På skift skal i nu alle lave en ændring i koden og pushe den til Github. 
-    * Efter hvert ````git push```` skal de andre gruppemedlemmer lave et ````git pull origin master````
+4. På skift skal i nu alle lave en ændring i koden "committe" og "pushe" den til Github. 
+    * Efter hvert ````push```` skal de andre gruppemedlemmer lave et ````pull````
 
 Dette skulle gerne fungere uden merge konflikter.
 
 **Gør det samme men nu med merge konflikter**
 
-1. Gentag punkt nummer 5 ovenfor, men nu skal alle gruppemedlemmer samtidig lave en ændring i koden og "pushe" det til github.
+1. Gentag punkt nummer 4 ovenfor, men nu skal alle gruppemedlemmer samtidig lave en ændring i koden og "pushe" det til github.
 
 Dette giver (højest sandsynligt) nogle merge konflikter, og dem skal i løse.
 
