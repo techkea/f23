@@ -35,7 +35,7 @@ Det følgende er en beskrivelse af hvordan du gør dette.
 til dette:
 
 ```
-    spring.datasource.url=jdbc:mysql://${HOSTNAME}
+    spring.datasource.url=jdbc:mysql://${DBHOSTNAME}
     spring.datasource.username=${USERNAME}
     spring.datasource.password=${PASSWORD}
 ```
