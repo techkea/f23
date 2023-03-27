@@ -3,26 +3,43 @@
 <script src="../script.js"></script> 
 
 # Forbindelse til databasen gennem miljøvariabler
-Indtil videre har i brugt jeres application.properties fil til at "holde" informationer vedrørende jeres database.
+Indtil videre har i brugt jeres application.properties fil til at "holde" informationer vedrørende jeres database (elleer i har hard coded deet ind i en java klasse).
 
-I denne tutorial skal lærer i hvordan i opsætter og bruger miljøvariabler istedet for application.properties metoden, som i har brugt indtil nu. 
+I denne tutorial skal lære i hvordan i opsætter og bruger miljøvariabler istedet for application.properties metoden, som i har brugt indtil nu. 
 
 ## Problemet som vi gerne vil løse 
-Når i skriver brugernavn og password ind i application.properties filen bliver i nød til at gøre denne fil tilgængelig for jeres applikation på Heroku. Det betyder at denne fil bliver nød til at ligge på Github (i hvert tilfælde når vi bruger den deployment metode som vi har brugt i undervisningen dette semester.).    
+Når i skriver brugernavn og password ind i application.properties filen ender denne fil på Github hvor alle kan se den. 
 
 Problemet med denne metode er at alle i hele verden vil kunne se jeres brugernavn og password (da i sikkert bruger et public repository).    
 
 ### Private repository
 En løsning er at gøre jeres github repository "private", men det kan give problemer i forhold til "colaborators" og andre der skal se jeres kode (feks. din lære).     
 
+### .gitignore
+Man vil kunne tilføje application.properties til jeres .gitignore fil. Problemet med denne løsning er at man gerne vil have denne konfigurationsfile med i projektet. (Da den kan bruges til alt muligt andet end database forbindelse mm.)
+
 ### Environment variabler (miljøvariabler)
-En anden mere holdbar løsning er at slette indholdet i application.properties og så istedet skrive username og password et andet sted end i selve spring boot projektet. Dette kan gøres i din computers miljøvariabler (og i miljøvariablerne på computeren hos **Render**).
+En tredje mere holdbar løsning er at indsætte variable navne i application.properties og så istedet skrive username og password et andet sted end i selve spring boot projektet. Dette kan gøres i din computers miljøvariabler (og i miljøvariablerne på linux serveren hos Azure).
 
 Det følgende er en beskrivelse af hvordan du gør dette. 
 
 ## Lokalt på din egen computer
 
-Åben din Spring Boot Web App i Intellij. Slet alt indhold i din application.properties fil. klik herefter på:
+Åben din Spring Boot Web App i Intellij. åben application.properties filen og ændre det følgende:
+
+```
+    spring.datasource.url=jdbc:mysql://localhost:3306/webshopdat22b
+    spring.datasource.username=root
+    spring.datasource.password=1234
+```
+til dette:
+
+```
+    spring.datasource.url=jdbc:mysql://${HOSTNAME}
+    spring.datasource.username=${USERNAME}
+    spring.datasource.password=${PASSWORD}
+```
+Efter dette skal du:
 
 ````
 	Run -> Edit configurations -> Environment -> Environment Variables
@@ -33,6 +50,38 @@ Dette åbner en Gui som denne.
 
 Indtast de informationer vedrørende din database som du indtil nu har haft i din application.properties fil.     
 
+![](../img/env_2.png)
+
+
+## Environment Variables på din Linux Server
+Åben den skjulte fil der hedder .profile (deen ligger i din home mappe)
+
+```
+    nano ~/.profile
+```
+
+Og skriv følgende ind i den:
+
+```
+    # DB environment variables
+    export DBHOSTNAME=azurhostname
+    export USERNAME=username
+    export PASSWORD=password
+```
+Luk forbindelsen til serveren og åben den igen. Nu kan du kalde environment variablerne ved at skrive:
+
+```
+    echo $DBHOSTNAME
+    echo $USERNAME
+    echo $PASSWORD
+```
+
+og de skulle nu også kunne kaldes fra dit spring boot projekt.
+
+
+
+
+<!--
 ### Ændring af DBManager fil
 I din DBManager.java fil skal du ændre følgende kode.
 
@@ -80,5 +129,5 @@ Dette åbner dette vindue:
 Udfyld felterne på samme måde som på din lokale computer.
 
 Thats it!
-
+-->
 
