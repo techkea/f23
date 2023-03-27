@@ -5,8 +5,35 @@
 # Azure CheatSheet
 Det følgende er de kommandoer vi har brugt for at arbejde med jeres Linux maskine på Azure.
 
-Feks. hvordan i installere Docker på maskinen og hvordan i installere Mysql som et docker image og bruger denne dabase. Og hvordan i eksekverer en jar file (web app) på maskinen.
+Feks. hvordan i eksekverer en jar file (web app) på maskinen, og hvordan i installere programmer på maskinen. 
 
+## Update og Upgrade
+Som det første skal i updatere maskinen.
+
+```
+    sudo apt update
+    sudo apt upgrade
+```
+ 
+## Installering af openjdk (version 17)
+For at kunne installere nyere versioner af openjdk skal i først udføre følgende kommandoer
+
+```
+    sudo add-apt-repository ppa:openjdk-r/ppa
+    sudo apt update
+    sudo apt install openjdk-17-jdk
+
+```
+
+### hvis du vil installere openjdk 19
+Hvis dine projekter er oprettet med jdk19 skal du udføre følgende kommandoer:
+
+```
+    wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
+    sudo apt-get -qqy install ./jdk-19_linux-x64_bin.deb
+    sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-19/bin/java 1919
+
+```
 
 ## Eksekver din jar fil 
 Du kan eksekvere en JAR-fil i detached mode i terminalen, fx en Spring Boot-applikation. Du kan gøre dette ved at bruge følgende kommando:
