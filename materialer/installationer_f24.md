@@ -108,8 +108,9 @@ Det er den linux installation du kommer til at arbejde med i undervisningen. Leh
 ### Slet din linux installation. 
 
 Hvis du skulle få brug for det kan du nemt slette linux instancen under "actions" i din Docker Desktop.     
-Gå derefter til din rodmappe ( ~ ) og tøm ```webtop``` mappen.    
-Herefter kører du ```docker run``` kommandoen igen og du har en ny ren installation kørende.
+Gå derefter til din rodmappe ( ~ ) og tøm ```webtop``` mappen. Nu har du slettet din linux instans.
+   
+Herefter kører du ```docker run``` kommandoen igen for at installere en ny og frisk instans.
 
 
 
