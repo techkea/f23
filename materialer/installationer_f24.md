@@ -5,14 +5,14 @@
 # Installationer
 Herunder finder du en beskrivelse af hvad og hvordan du skal installere det software vi skal arbejde med resten af dette semester.
 
-Du skal installere ubuntu linux på din computer, ikke som en erstatning for dit nuværende styrresystem, men i en "container".
+Du skal installere ubuntu linux på din computer, ikke som en erstatning for dit nuværende styrresystem, men i en "container" inde i dit styrresystem.
 
 Du kan konceptionelt se det du skal gøre som værende:
 
-1. installere en "sandkasse" på din egen komputer
+1. installere en "sandkasse" på din egen computer.
 2. installere linux i denne sandkasse (det kan du se som sandet).
 
-Så du kommer til at have en computer installeret inde i din computer - lidt ligesom folmen "inception" (hvis du har set den).
+Så du kommer til at have en computer installeret inde i din computer - lidt ligesom filmen "inception" (hvis du har set den).
 
 ## 1. Docker Desktop
 Det første du skal installere er programmet **Docker Desktop** (dette er din sandkasse).
@@ -93,10 +93,25 @@ Det tager ca. et minuts tid og når det er sket skal du åbne Docker desktop og 
 
 ![](../img/desktop/desktop_02_01.png) 
 
+Her skulle du gerne kunne se noget lignende dette. 
 
+---
 
+Under actions vælg "View in browser"
 
+![](../img/desktop/desktop_02_02.png) 
 
+Dette åbner dette interface i din browser:
+
+![](../img/desktop/desktop_02_03.png) 
+
+Dette er den linux installation du kommer til at arbejde med i undervisningen.   
+
+### Slet din linux installation. 
+
+Hvis du skulle have brug for det kan du nemt slette linux instancen under actions i din Docker Desktop.     
+Gå derefter til din rodmappe og tøm ```webtop``` mappen.    
+Herefter kører du bare ```docker run``` kommandoen igen.
 
 
 
