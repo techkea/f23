@@ -7,6 +7,36 @@
 
 ## The unix file system
 
+
+Et linux OS vil som udgangspunkt indeholde disse mapper i rod mappen.
+
+```
+    .
+    ├── app
+    ├── bin -> usr/bin
+    ├── boot
+    ├── config
+    ├── defaults
+    ├── dev
+    ├── etc
+    ├── home
+    ├── lib -> usr/lib
+    ├── media
+    ├── mnt
+    ├── opt
+    ├── root
+    ├── run
+    ├── sbin -> usr/sbin
+    ├── sys
+    ├── tmp
+    ├── usr
+    └── var
+```
+
+
+
+
+
 ````
     .
     ├── README.md
