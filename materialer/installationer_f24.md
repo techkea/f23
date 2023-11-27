@@ -88,16 +88,14 @@ Copy/paste herefter denne kommando i din terminal for at downloade og starte Ubu
   --restart unless-stopped \
   lscr.io/linuxserver/webtop:ubuntu-mate
 ```
-Det tager ca. et minuts tid og når det er sket skal du åbne Docker desktop og gå til Containers menupunktet.
-
+Det tager ca. et minuts tid. Når det er sket skal du åbne Docker desktop og gå til Containers menupunktet. Her skulle du gerne kunne se noget lignende dette. 
 
 ![](../img/desktop/desktop_02_01.png) 
 
-Her skulle du gerne kunne se noget lignende dette. 
 
 ---
 
-Under actions vælg "View in browser"
+Under actions vælg "Open with browser"
 
 ![](../img/desktop/desktop_02_02.png) 
 
@@ -105,13 +103,13 @@ Dette åbner dette interface i din browser:
 
 ![](../img/desktop/desktop_02_03.png) 
 
-Dette er den linux installation du kommer til at arbejde med i undervisningen.   
+Det er den linux installation du kommer til at arbejde med i undervisningen. Leh lidt med det inden vi mødes. 
 
 ### Slet din linux installation. 
 
-Hvis du skulle have brug for det kan du nemt slette linux instancen under actions i din Docker Desktop.     
-Gå derefter til din rodmappe og tøm ```webtop``` mappen.    
-Herefter kører du bare ```docker run``` kommandoen igen.
+Hvis du skulle få brug for det kan du nemt slette linux instancen under "actions" i din Docker Desktop.     
+Gå derefter til din rodmappe ( ~ ) og tøm ```webtop``` mappen.    
+Herefter kører du ```docker run``` kommandoen igen og du har en ny ren installation kørende.
 
 
 
