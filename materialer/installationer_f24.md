@@ -3,14 +3,26 @@
 <script src="../script.js"></script> 
 
 # Installationer
-Herunder finder du en beskrivelse af hvad og hvordan du skal installere det software vi skal arbejde med i dag og resten af dette semester.
+Herunder finder du en beskrivelse af hvad og hvordan du skal installere det software vi skal arbejde med resten af dette semester.
 
+Du skal installere ubuntu linux på din computer, ikke som en erstatning for dit nuværende styrresystem, men i en "container".
+
+Du kan konceptionelt se det du skal gøre som værende:
+
+1. installere en "sandkasse" på din egen komputer
+2. installere linux i denne sandkasse (det kan du se som sandet).
+
+Så du kommer til at have en computer installeret inde i din computer - lidt ligesom folmen "inception" (hvis du har set den).
 
 ## 1. Docker Desktop
-Det første du skal installere er programmet Docker Desktop. I første om gang kan du bare se dette program som en beholder som du så efterfølgende kan installere linux og andre programmer i. 
+Det første du skal installere er programmet **Docker Desktop** (dette er din sandkasse).
 
 ### Download og installer Docker Desktop
 Naviger til **[Dockers website](https://www.docker.com/)** og download og installer Docker Desktop.
+
+#### Mac 
+Har du en Mac plejer dette trin at køre lige ud af landevejen.    
+Det eneste du skal huske er at vælge den Docker version der svare til din CPU (intel/M1,M2)
 
 #### Windows tutorials
 På Windows kan der i nogle tilfælde være lidt udfordringer med at installere Docker desktop.
@@ -26,7 +38,7 @@ Hvis du skulle have Windows 10 Home på din computer skal du følge denne fremga
 **[Install Docker Desktop on Windows Home](https://docs.docker.com/docker-for-windows/install-windows-home/)**
 
 #### Check om alt er installeret korrekt
-I din terminal, gitbash eller powershell skal du skrive ``` docker --version ```, hvilket skulle give dig følgende resultat:  
+I din terminal, gitbash eller powershell skal du skrive ```docker --version``` hvilket skulle give dig følgende resultat:  
 
 ````
 	$ docker --version
@@ -36,13 +48,28 @@ Versionsnummeret kan variere, men hvis du ikke kan se dette eller ser en fejl, h
 
 
 ### Download og Kør dit linux OS
+Du skal nu downloade den version af linux som vi kommer til at bruge fremover.
 
-<iframe></iframe>
+Detter sker gennem din Terminal (mac), eller Powershell (win).
+ 
+##### Windows
+Hvis du har Windows på din computer skal du åbne programmet **PowerShell**. Dette gøres nemmest ved at skrive "Powershell" i søgefeltet nederst til venstre på skærmen. 
 
+![](../img/desktop/powershell.png)
+
+##### Mac
+Hvis du har Mac skal du åbne programmet **Terminal**. Dette gøres nemmest ved at søge via **spotlight**.
+
+![](../img/desktop/terminal.png) 
+
+Skriv denne kommando i din terminal/powershell.
 
 ```
     mkdir ~/webtop
 ```
+Det laver en mappe med navnet "webtop" i din user mappe på din computer.    
+
+Copy/paste herefter denne kommando i din terminal for at downloade og starte Ubuntu (Linux):
 
 ```
   docker run -d \
@@ -61,6 +88,23 @@ Versionsnummeret kan variere, men hvis du ikke kan se dette eller ser en fejl, h
   --restart unless-stopped \
   lscr.io/linuxserver/webtop:ubuntu-mate
 ```
+Det tager ca. et minuts tid og når det er sket skal du åbne Docker desktop og gå til Containers menupunktet.
+
+
+![](../img/desktop/desktop_02_01.png) 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
