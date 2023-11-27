@@ -60,7 +60,7 @@ Hvis du har Windows på din computer skal du åbne programmet **PowerShell**. De
 ##### Mac
 Hvis du har Mac skal du åbne programmet **Terminal**. Dette gøres nemmest ved at søge via **spotlight**.
 
-![](../img/desktop/terminal.png) 
+![](../img/desktop/desktop_02_04.png) 
 
 Skriv denne kommando i din terminal/powershell.
 
