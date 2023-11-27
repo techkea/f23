@@ -112,7 +112,8 @@ Gå derefter til din rodmappe ( ~ ) og tøm ```webtop``` mappen. Nu har du slett
    
 Herefter kører du ```docker run``` kommandoen igen for at installere en ny og frisk instans.
 
-
+### Password
+Hvis din skærm går i pause mode, skal du indtaste et password for at logge ind. Dette password er **abc**
 
 
 
