@@ -18,7 +18,6 @@ Så det kan være en god ide at følge disse to tutorials:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eId6K8d0v6o?si=3iVA1XTlNrjmBn9K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-![](img/wsl2-enabled.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fnjs4W91Olc?si=DYw1qXDC060GW8T-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
