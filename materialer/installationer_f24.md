@@ -99,11 +99,13 @@ Under actions vælg "Open with browser"
 
 ![](../img/desktop/desktop_02_02.png) 
 
-Dette åbner dette interface i din browser:
+Nu åbner dette interface i din browser:
 
 ![](../img/desktop/desktop_02_03.png) 
 
-Det er den linux installation du kommer til at arbejde med i undervisningen. Leh lidt med det inden vi mødes. 
+Hvis det ikke sker automatisk kan du selv åbne din browser og skriv ```localhost:3000```.     
+
+Det er den linux installation du kommer til at arbejde med i undervisningen. Leg lidt med det inden vi mødes. 
 
 ### Slet din linux installation. 
 
