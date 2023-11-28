@@ -1,3 +1,6 @@
+<!-- JS use if these pages are used as githubpages. can be deleted if used elsewhere -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="../script.js"></script> 
 
 # Processes and the Operating System
 Whenever you use a computer, you’ll always be interacting with programs. A process is the operating system’s abstraction of a running program. So, using a computer always involve processes. Start menus, app bars, command-line interpreters, text editors, browsers, and more—every application comprises one or more processes.
@@ -15,7 +18,7 @@ The process table allows the operating system to abandon a particular process at
 An operating system doesn’t boot up with thousands of processes, though. Many of the processes you’re familiar with are started by you. In the next section, you’ll look into the lifetime of a process.
 
 ## Process Lifetime
-Think of how you might start a Python application from the command line. This is an instance of your command-line process starting a Python process:
+Think of how you might start an application from the command line. This is an instance of your command-line process starting another process:
 
 ## Animation of basic process creation
 The process that starts another process is referred to as the parent, and the new process is referred to as the child. The parent and child processes run mostly independently. Sometimes the child inherits specific resources or contexts from the parent.
