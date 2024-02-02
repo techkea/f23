@@ -71,6 +71,7 @@ Det laver en mappe med navnet "webtop" i din user mappe på din computer.
 
 Copy/paste herefter denne kommando i din terminal for at downloade og starte Ubuntu (Linux):
 
+<!--
 ```
     docker run -d \
   --name=webtop-ubuntu-mate \
@@ -88,12 +89,11 @@ Copy/paste herefter denne kommando i din terminal for at downloade og starte Ubu
   --restart unless-stopped \
   lscr.io/linuxserver/webtop:ubuntu-mate
 ```
+-->
 
-<!--
 ```
   docker run -d --name=webtop-ubuntu-mate --security-opt seccomp=unconfined  -e PUID=1000 -e PGID=1000 -e TZ=Etc/UTC -e SUBFOLDER=/  -e TITLE=Teknologi  -p 3000:3000 -p 3001:3001 -v ~/webtop:/config -v /var/run/docker.sock:/var/run/docker.sock  --shm-size="1gb"  --restart unless-stopped lscr.io/linuxserver/webtop:ubuntu-mate
 ```
--->
 
 Det tager ca. et minuts tid. Når det er sket skal du åbne Docker desktop og gå til Containers menupunktet. Her skulle du gerne kunne se noget lignende dette. 
 
