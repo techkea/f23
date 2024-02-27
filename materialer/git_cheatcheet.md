@@ -21,30 +21,30 @@
 ![](../img/git_tavle.JPG)
 -->
 
-## Branching and merging
-<!--
-- git branch: shows branches
-- git branch \<name\>: creates a branch
-- git branch -d \<branch name\>: delete branch
--->
-- git checkout -b <name>: creates a branch and switches to it
-- git merge \<branch name\>: merges into current branch
+    ## Branching and merging
+    <!--
+    - git branch: shows branches
+    - git branch \<name\>: creates a branch
+    - git branch -d \<branch name\>: delete branch
+    -->
+    - git checkout -b <name>: creates a branch and switches to it
+    - git merge \<branch name\>: merges into current branch
 
-## Configuration
-- .gitignore: file for specifying which files should not be included in commits
-	- [example (simple):](gitignore_simple.txt)
-	- [example (IntelliJ):](gitignore.txt)
+    ## Configuration
+    - .gitignore: file for specifying which files should not be included in commits
+        - [example (simple):](gitignore_simple.txt)
+        - [example (IntelliJ):](gitignore.txt)
 
-## Remotes (Github)
-- git remote: list remotes
-- git remote -v: list push and fetch remote url
-- git remote set-url \<remote\> \<url\>: changes the online repository url
-- git remote add \<remote\> \<url\>: add a reference to the remote repository 
-- git push \<remote\> \<local branch\>:\<remote branch\>: send objects to remote, and update remote reference
-- git fetch: retrieve objects/references from a remote
-- git pull: same as git fetch; git merge
-- git clone: download repository from remote
-- git branch -r: list remote branches
+    ## Remotes (Github)
+    - git remote: list remotes
+    - git remote -v: list push and fetch remote url
+    - git remote set-url \<remote\> \<url\>: changes the online repository url
+    - git remote add \<remote\> \<url\>: add a reference to the remote repository 
+    - git push \<remote\> \<local branch\>:\<remote branch\>: send objects to remote, and update remote reference
+    - git fetch: retrieve objects/references from a remote
+    - git pull: same as git fetch; git merge
+    - git clone: download repository from remote
+    - git branch -r: list remote branches
 
 
 
