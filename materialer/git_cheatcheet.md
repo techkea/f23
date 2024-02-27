@@ -13,7 +13,10 @@
 - git log: shows a flattened log of history
 - git log --all --graph --decorated: show a log with all branches and a decorated graph 
 - git checkout \<revision\>: updates HEAD and current branch
-- git config --global core.editor "nano" : set the deafult editor to nano
+- git config --global core.editor "nano" : set the deafult editor to nano     
+
+    
+
 ![](../img/gitdatamodel.jpg)
 
 
