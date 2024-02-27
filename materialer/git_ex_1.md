@@ -84,7 +84,7 @@ Det er desuden vigtigt at du får en forståelse for hvad en commit graph er og 
 ## Del 2
 Brug nu kommandoen ```` git checkout <commitid> ```` for at gå frem og tilbage i din git historik. Sørg for at du ved hvor du er i forhold til den commit graf du har tegnet tidligere.
 
-Kig på koden i intelliJ og åben filen i browseren og se hvad der sker når du hopper frem og tilbage i historikken.  
+ åben filen (index.html) i browseren og se hvad der sker når du hopper frem og tilbage i historikken.  
 
 
 
