@@ -87,7 +87,21 @@ Brug nu kommandoen ```` git checkout <commitid> ```` for at gå frem og tilbage 
  åben filen (index.html) i browseren og se hvad der sker når du hopper frem og tilbage i historikken.  
 
 
+## Del 3
+* Hop nu over på din egen computer (altså windows eller mac).    
 
+Følgende øvelse skal i udføre på to måder.
+1. Gennem terminalen, som vi har gjort i linux indtil nu.
+2. Vha. IntelliJ git gui
 
+Først bruger i metode 1., herefter opretter i et ny projekt og bruger metode 2.
+
+* Åben IntelliJ og opret et projekt som det i har arbejdet med i programmeringsundervisningen tidligere i denne uge.
+* Initialiser projektet som et git repository (git init)
+    * Vær opmærksom på i hvilken mappe du er i når du udføre kommandoen.
+        * Du skal være i rodmappen af dit projekt 
+* Tilføj dine file til dit staging area (git add)
+* Lav et commit (git commit -m "init")
+* Brug git status og git log til at få et overblik over dit projekt
 
 
