@@ -20,13 +20,11 @@
 <!--
 ![](../img/git_tavle.JPG)
 -->
-
+<!--
     ## Branching and merging
-    <!--
     - git branch: shows branches
     - git branch \<name\>: creates a branch
     - git branch -d \<branch name\>: delete branch
-    -->
     - git checkout -b <name>: creates a branch and switches to it
     - git merge \<branch name\>: merges into current branch
 
@@ -46,5 +44,5 @@
     - git clone: download repository from remote
     - git branch -r: list remote branches
 
-
+-->
 
