@@ -5,6 +5,8 @@
 # GIT CHEAT SHEET
 
 ## Basics
+- Working directory, Staging area, Git Repository
+
 - git help \<command\> : get help for a git command   
 - git init : creates a new git repo, with data stored in the .git directory
 - git status : tells you what’s going on
