@@ -5,14 +5,16 @@
 # GIT CHEAT SHEET
 
 ## Basics
-- git help \<command\>: get help for a git command   
-- git init: creates a new git repo, with data stored in the .git directory
-- git status: tells you what’s going on
-- git add \<filename\>: adds files to staging area
-- git commit -m "commit msg": creates a new commit
-- git log: shows a flattened log of history
-- git log --all --graph --decorated: show a log with all branches and a decorated graph 
-- git checkout \<revision\>: updates HEAD and current branch
+- git help \<command\> : get help for a git command   
+- git init : creates a new git repo, with data stored in the .git directory
+- git status : tells you what’s going on
+- git add \<filename\> : adds files to staging area
+- git commit -m "commit msg" : creates a new commit
+- git commit -m "commint msg" -a : adds all modified files to staging area, and creates a new commit.
+- git log : shows a flattened log of history
+- git log -oneline: shows a log of history in onliners
+- git log --all --graph --decorated : show a log with all branches and a decorated graph 
+- git checkout \<revision\> : updates HEAD and current branch
 - git config --global core.editor "nano" : set the deafult editor to nano     
 
     
