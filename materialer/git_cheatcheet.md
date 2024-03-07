@@ -27,14 +27,13 @@
 <!--
 ![](../img/git_tavle.JPG)
 -->
+## Branching and merging
+- git branch: shows branches
+- git branch \<name\>: creates a branch
+- git branch -d \<branch name\>: delete branch
+- git checkout -b <name>: creates a branch and switches to it
+- git merge \<branch name\>: merges into current branch
 <!--
-    ## Branching and merging
-    - git branch: shows branches
-    - git branch \<name\>: creates a branch
-    - git branch -d \<branch name\>: delete branch
-    - git checkout -b <name>: creates a branch and switches to it
-    - git merge \<branch name\>: merges into current branch
-
     ## Configuration
     - .gitignore: file for specifying which files should not be included in commits
         - [example (simple):](gitignore_simple.txt)
