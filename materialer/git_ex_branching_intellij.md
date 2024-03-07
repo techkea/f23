@@ -14,6 +14,7 @@ I IntelliJ skal du oprette et nyt projekt (eller bruge noget af det du allerede 
 * Skift herefter til din master branch
 
 * Undersøg hvor mange branche du har og skift imellem dem og se koden ændre sig.
+* brug desuden kommandoen ````git diff `\<branch name\>```` til at undersøge forskellen mellem dine branches
 
 ## 2. Merge øvelse (uden konflikter)
 Sørg for at du er i din ```` master ```` branch.    

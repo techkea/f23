@@ -19,7 +19,6 @@
 - git checkout \<revision\> : updates HEAD and current branch
 - git config --global core.editor "nano" : set the deafult editor to nano     
 
-    
 
 ![](../img/gitdatamodel.jpg)
 
@@ -27,13 +26,15 @@
 <!--
 ![](../img/git_tavle.JPG)
 -->
+
 ## Branching and merging
 - git branch: shows branches
 - git branch \<name\>: creates a branch
 - git branch -d \<branch name\>: delete branch
 - git checkout -b <name>: creates a branch and switches to it
 - git merge \<branch name\>: merges into current branch
-    
+- git diff \<branch name\>: shows the difference between current branch and \<branch name\>
+
 ## Configuration
 - .gitignore: file for specifying which files should not be included in commits
     - [example (simple):](gitignore_simple.txt)
