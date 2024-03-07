@@ -2,7 +2,7 @@
 <script src="../script.js"></script>
 
 # Git branching øvelser (IntelliJ)
-
+Følgende øvelser kan i lave i ubuntu gennem terminalen, eller via intellij på jeres Windows- eller Mac OS. I bestemmer selv, men øvelserne er beskrevet som om de skal laves i IntelliJ.
 
 ## 1. Branch øvelse
 I IntelliJ skal du oprette et nyt projekt (eller bruge noget af det du allerede har lavet i programmeringsfaget).    
