@@ -40,7 +40,6 @@
     - [example (simple):](gitignore_simple.txt)
     - [example (IntelliJ):](gitignore.txt)
 
-<!--
 ## Remotes (Github)
 - git remote: list remotes
 - git remote -v: list push and fetch remote url
@@ -52,4 +51,3 @@
 - git clone: download repository from remote
 - git branch -r: list remote branches
 
--->
