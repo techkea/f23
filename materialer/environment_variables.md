@@ -3,7 +3,7 @@
 <script src="../script.js"></script> 
 
 # Forbindelse til databasen gennem miljøvariabler
-Indtil videre har i brugt jeres application.properties fil til at "holde" informationer vedrørende jeres database (elleer i har hard coded deet ind i en java klasse).
+Indtil videre har i brugt jeres application.properties fil til at "holde" informationer vedrørende jeres database (eller i har hard coded det ind i en java klasse).
 
 I denne tutorial skal lære i hvordan i opsætter og bruger miljøvariabler istedet for application.properties metoden, som i har brugt indtil nu. 
 
@@ -54,7 +54,7 @@ Indtast de informationer vedrørende din database som du indtil nu har haft i di
 
 
 ## Environment Variables på din Linux Server
-Åben den skjulte fil der hedder .profile (deen ligger i din home mappe)
+Åben den skjulte fil der hedder .profile (den ligger i din home mappe)
 
 ```
     nano ~/.profile
