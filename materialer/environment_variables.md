@@ -35,7 +35,7 @@ Det følgende er en beskrivelse af hvordan du gør dette.
 til dette:
 
 ```
-    spring.datasource.url=jdbc:mysql://${JDBC_DATABSE_URL}
+    spring.datasource.url=jdbc:mysql://${JDBC_DATABASE_URL}
     spring.datasource.username=${JDBC_USERNAME}
     spring.datasource.password=${JDBC_PASSWORD}
 ```
@@ -64,7 +64,7 @@ Og skriv følgende ind i den:
 
 ```
     # DB environment variables
-    export JDBC_DATABSE_URL=azurhostname
+    export JDBC_DATABASE_URL=azurhostname
     export JDBC_USERNAME=username
     export JDBC_PASSWORD=password
 ```
