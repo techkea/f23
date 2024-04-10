@@ -35,9 +35,9 @@ Det følgende er en beskrivelse af hvordan du gør dette.
 til dette:
 
 ```
-    spring.datasource.url=jdbc:mysql://${DBHOSTNAME}
-    spring.datasource.username=${USERNAME}
-    spring.datasource.password=${PASSWORD}
+    spring.datasource.url=jdbc:mysql://${JDBC_DATABSE_URL}
+    spring.datasource.username=${JDBC_USERNAME}
+    spring.datasource.password=${JDBC_PASSWORD}
 ```
 Efter dette skal du:
 
@@ -64,16 +64,16 @@ Og skriv følgende ind i den:
 
 ```
     # DB environment variables
-    export DBHOSTNAME=azurhostname
-    export USERNAME=username
-    export PASSWORD=password
+    export JDBC_DATABSE_URL=azurhostname
+    export JDBC_USERNAME=username
+    export JDBC_PASSWORD=password
 ```
 Luk forbindelsen til serveren og åben den igen. Nu kan du kalde environment variablerne ved at skrive:
 
 ```
-    echo $DBHOSTNAME
-    echo $USERNAME
-    echo $PASSWORD
+    echo $JDBC_DATABASE_URL
+    echo $JDBC_USERNAME
+    echo $JDBC_PASSWORD
 ```
 
 og de skulle nu også kunne kaldes fra dit spring boot projekt.
