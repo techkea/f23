@@ -131,6 +131,13 @@ Et linux OS vil som udgangspunkt indeholde disse mapper i rod mappen.
 	# username: clbo
 	# password: clbo
 ````
+
+**Update / upgrade linux**
+Inden man skal installere noget på en Linx maskine er det ofte nødvendigt at update og upgrade systemet. 
+````
+	sudo apt update
+	Sudo apt upgrade
+````
 **Install programs / applications on Linux**
 ````
 	sudo apt install <application name>		#  
